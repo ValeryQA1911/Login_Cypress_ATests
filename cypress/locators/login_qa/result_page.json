@@ -1,0 +1,5 @@
+{
+"result_header": "#messageHeader",
+"result_exit": "#exitMessageButton > .exitIcon",
+"result_link": ".link"
+}

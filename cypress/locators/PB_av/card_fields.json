@@ -1,0 +1,7 @@
+{
+"card_number": ".payment_form_card_form > :nth-child(2) > .style_1_base_input",
+"card_exp_field": ":nth-child(1) > .style_1_base_input",
+"card_cvv_field": ".payment_form_card_form_inputs > :nth-child(2) > .style_1_base_input",
+"card_name_field": ".payment_form_card_form_input_last > .style_1_base_input",
+"pay_btn_field": ".style_1_base_button_payment_body > .style_1_base_button_payment"
+}

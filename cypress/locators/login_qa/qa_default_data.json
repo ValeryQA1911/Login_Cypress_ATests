@@ -1,0 +1,7 @@
+{
+	"login": "german@dolnikov.ru",
+	"incorrect_login": "not_german@dolnikov.ru",
+	"password": "iLoveqastudio1",
+	"incorrect_password": "iLoveqastudio2",
+	"login_without_dog": "germandolnikov.ru"
+}

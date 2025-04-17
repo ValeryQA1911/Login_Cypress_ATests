@@ -1,0 +1,7 @@
+{
+   "mail_field": "#mail",
+   "password_field": "#pass",
+   "enter_btn": "#loginButton",
+   "forgot_btn": "#forgotEmailButton",
+   "footer_link": "link"
+}
