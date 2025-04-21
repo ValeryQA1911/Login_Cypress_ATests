@@ -16,7 +16,7 @@
 * Проверка флоу восстановления пароля
 * Проверка автозамены регистра введенного пароля на нижний
 
-## Детали реализации
+## Детали реализации:
 
 1. Использованы хуки beforeEach и afterEach
 ![image](https://github.com/ValeryQA1911/atests_cypress/blob/main/static/hooks.png)
@@ -27,29 +27,17 @@
 3. Каждая из страниц описана в формате объекта с локаторами
 ![image](https://github.com/ValeryQA1911/atests_cypress/blob/main/static/locators.png)
 
-## Как запустить локально (из терминала)
-1. Скачать проект
-2. Перейти в терминале в директорию проекта
-2. Выполнить команду:
-```
-npx cypress run --spec cypress/e2e/lesson_locators.cy.js --browser chrome
-```
-Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_cli.png)
+## Как запустить через Cypress UI:
+1. Скачать проект и открыть в терминале
+2. Перейти в директорию проекта
+3. Перейти в папку locators > login_qa > qa_default_data.json
+4. Заменить заглушки в значениях на реальные
+5. В терминале в папке с проектом запустить npm `install --save-dev cypress@12.7.0`
+6. В терминале в папке с проектом запустить npm `npm i`
+7. В терминале в папке с проектом запустить npm `npx cypress open`
+8. Выбрать в Cypress UI E2E тестирование и браузер Google Chrome
+9. Выбрать спеку login.qa
 
+Ожидаемый результат: отчет об успешном прохождении тестов
 
-## Локальный запуск через Cypress UI
-1. Скачать проект и открыть в терминале.
-2. Перейти в директорию проекта.
-3. В терминале в папке с проектом запустить npm `install --save-dev cypress@12.7.0`
-4. В терминале в папке с проектом запустить npm `npm i`
-5. В терминале в папке с проектом запустить npm `npx cypress open`
-6. Выбрать в Cypress UI E2E тестирование и браузер Google Chrome
-7. Выбрать спеку lesson_locators
-
-Ожидаемый результат: получим отчет о прохождении тестов.
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/Cypress_UI.png)
-
-
-## Автор
-
+![image](https://github.com/ValeryQA1911/Login_Cypress_ATests/blob/main/static/login_done.png)
