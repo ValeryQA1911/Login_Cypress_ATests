@@ -18,16 +18,13 @@
 
 ## Детали реализации
 
-1. baseUrl вынесен в переменные конфига
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/baseUrl.png)
-
-2. Использованы хуки beforeEach и afterEach
+1. Использованы хуки beforeEach и afterEach
 ![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
 
-3. Переменные данные для авторизации вынесены в отдельный файл
+2. Переменные данные для авторизации вынесены в отдельный файл
 ![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
 
-4. Каждая из страниц описана в формате объекта с локаторами
+3. Каждая из страниц описана в формате объекта с локаторами
 ![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
 
 ## Как запустить локально (из терминала)
