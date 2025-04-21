@@ -11,4 +11,3 @@ module.exports = defineConfig({
   },
 });
 
-// Все параметры конфига: https://docs.cypress.io/guides/references/configuration
