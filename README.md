@@ -19,13 +19,13 @@
 ## Детали реализации
 
 1. Использованы хуки beforeEach и afterEach
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/hooks.png)
+![image](https://github.com/ValeryQA1911/atests_cypress/blob/main/static/hooks.png)
 
 2. Переменные данные для авторизации вынесены в отдельный файл
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/user_data.png)
+![image](https://github.com/ValeryQA1911/atests_cypress/blob/main/static/data_var.png)
 
 3. Каждая из страниц описана в формате объекта с локаторами
-![image](https://raw.githubusercontent.com/German-D/new_cypress/main/static/locators.png)
+![image](https://github.com/ValeryQA1911/atests_cypress/blob/main/static/locators.png)
 
 ## Как запустить локально (из терминала)
 1. Скачать проект
